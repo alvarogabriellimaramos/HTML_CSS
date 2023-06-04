@@ -1,0 +1,17 @@
+body{
+    background-color: #678ae1;
+}
+#div-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div-right{
+    background-image: linear-gradient(10deg,#08e6ff,#208fd8,#f8716f,#b44b61);
+    box-shadow: 1px 1px 4px 2px ;
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    max-width: 800px;
+    min-width: 400px;
+}

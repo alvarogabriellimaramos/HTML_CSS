@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/*Regra @charset caso haja problemas com acentuações */
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:visited{
+            color: red;
+        }
+        .especial:hover{
+            color: white;
+            background-color: black;
+        }
+        .especial::before{
+            content: '>>';
+            font-weight: lighter;
+        }
+        .especial::after{
+            content: '<<';
+            font-weight: lighter;
+            
+        }
+        
+    </style>
+    <title>Personalizando um link </title>
+</head>
+<body>
+    <h1>Personalizando um link </h1>
+    <p>
+        Para Acessar o site do google clique no link aqui,<a href="https://www.google.com/" target="_blank" rel="external "> Google </a>
+    </p>
+    <p>
+        Se quiser conhecer mais sobre os padrões,visite o site do <a href="https://www.w3c.br" target="_blank" rel="external" class="especial"> Escritório do WEC no Brasil </a>
+    </p>
+    
+</body>
+</html>

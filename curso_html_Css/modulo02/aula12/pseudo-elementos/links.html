@@ -1,0 +1,58 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a{
+            font-weight: bolder;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        ul{
+            list-style: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            font-size: 1.5em;
+        }
+        a::before{
+            content: ' =>';
+            color: lightblue;
+        }
+        a::after{
+            content: ' <= ';
+            color: lightblue;
+        }
+        p::first-letter{
+            color: blue;
+        }
+        p::first-line{
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+            
+        }
+        
+    </style>
+    <title>links</title>
+</head>
+<body>
+    <h1>Personalizando links </h1>
+    <ul>
+        <li>
+            <a href="https://www.youtube.com" target="_blank" rel="external">YouTube</a>
+        </li>
+        <li>
+            <a href="https://www.google.com" target="_blank" rel="external">Google</a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com" target="_blank" rel="external">Facebook</a>
+        </li>
+    </ul>
+    <p>Bem vindo ao meu site,espero que goste
+        <br>
+        este é meu primerio site 
+    </p>
+</body>
+</html>

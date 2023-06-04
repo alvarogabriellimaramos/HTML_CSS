@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando sombras </title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: lightgray;
+            font-style: italic;
+        }
+        nav{
+            background-color: gray;
+            box-shadow: 1px 1px 3px ;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            width: 300px;
+            margin: 5px auto;
+        }
+        li{
+            box-shadow:  0px 2px 3px ;
+            margin: 8px;
+        }
+        section{
+            box-shadow: inset 1px 1px 3px ; 
+            background-color: gainsboro;
+            border-radius: 10px 40px ;
+        }
+        #bola{
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href=""> Inicio</a>
+                </li>
+                <li>
+                    <a href="">Ajuda</a>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre o brasil </h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores eligendi, doloremque cupiditate nemo recusandae dolore eveniet animi quod, ratione magni sapiente dolores tempora consequuntur explicabo molestias doloribus facilis fugiat placeat?</p>
+            </article>
+            <aside>HTML(hyper marcação de texto) CSS (Folhas de estilos e cascastas) </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por &copy;Alvinho </p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

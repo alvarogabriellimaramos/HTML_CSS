@@ -1,0 +1,144 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #10284b;
+        }
+        button{
+            width: 15%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        .btnHover:hover{
+            background-color: rgb(40, 209, 40);
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .btnActive:active{
+            background-color: red;
+            color: #fff;
+            border: none;
+        }
+        .btnDisabled:disabled{
+            background-color: #3b0f08;
+            color: #ca882f;
+            opacity: 0.3;
+        }
+        .empty:empty{
+            background-color: red;
+        }
+        .firstOfType p:first-of-type{
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: red;
+            font-size: 20px;
+        }
+        .last-of-type p:last-of-type{
+            background-color: red;
+            opacity: 0.9;
+            
+        }
+        .focus:focus{
+            background-color: green;
+        }
+        button:not(.not){
+            background-color: red;
+        }
+        .checkbox:checked{
+            width: 20px;
+            height: 20px;
+            border: none;
+            box-shadow: 1px 1px 3px 1px ;
+        }
+        .checkboxAfter{
+            display: block;
+        }
+        .checkboxAfter::after{
+            content: 'Inativo';
+            left: 30px;
+            position: relative;
+            color: rgb(236, 130, 130);
+        }
+        .checkboxAfter:checked::after{
+            content: 'Ativo';
+        }
+    </style>
+    <title>Desafio de pseudo-classes </title>
+</head>
+<body>
+    <h1>Pseudo-classes CSS </h1>
+    <hr>
+    <div>
+        <h2>1 - Hover </h2>
+        <button class="btnHover">Botão</button>
+    </div>
+    <hr>
+    <div>
+        <h2>2 - Active </h2>
+        <button class="btnActive">Botão</button>
+    </div>
+    <hr>
+    <div>
+        <h2>3 - Disabled </h2>
+        <button class="btnDisabled" disabled>Botão</button>
+    </div>
+    <hr>
+    <div class="empty">
+        <h2>4 - empty</h2>
+        <button class="empty">Botão</button>
+        <button class="empty"></button>
+        <button class="empty">Botão</button>
+    </div>
+    <hr>
+    <div>
+        <h2>5 - First of Type </h2>
+        <div class="firstOfType">
+            <p>Parágrafo de teste 1 </p>
+            <p>Parágrafo de teste 2 </p>
+            <p>Parágrafo de teste 3 </p>
+
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2>6 - Last of Type </h2>
+        <div class="last-of-type">
+            <p>Parágrafo de teste 1 </p>
+            <p>Parágrafo de teste 2 </p>
+            <p>Parágrafo de teste 3 </p>
+
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2>7 - Focus </h2>
+        <button class="focus"> a</button>
+    </div>
+        <hr>
+    <div>
+        <h2>8 - Not </h2>
+        <button class="not">a</button>
+        <button class="btn">a</button>
+    </div>
+    <hr>
+    <div>
+        <h2>9 - Checked </h2>
+        <input type="checkbox" name="" id="" class="checkbox">
+        <input type="checkbox" name="" id="" class="checkbox">
+        <input type="checkbox" name="" id="" class="checkbox">
+    </div>
+    <hr>
+    <div>
+        <h2>10 - Checked + After  </h2>
+        <input type="checkbox" name="" id="" class="checkboxAfter">
+        <input type="checkbox" name="" id="" class="checkboxAfter">
+        <input type="checkbox" name="" id="" class="checkboxAfter">
+    </div>
+</body>
+</html>

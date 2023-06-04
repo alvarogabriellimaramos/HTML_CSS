@@ -1,0 +1,39 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Gradiente/Degradê</title>
+    <style>
+        /*Podemos usar o ( * ) para fazer alterações globais  */
+        body{
+            background-color: #678ae1;
+        }
+        #div-principal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #div-right{
+           box-shadow: 1px 1px 1px 1px ;
+           height: 80%;
+           width: 50%;
+           background-image: linear-gradient(to bottom,#08c5ff,white);
+           position: absolute;  
+        }
+        #js{
+            box-shadow: 1px 1px 4px 2px rgb(0,200,100);
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+    <main>
+        <div id="div-principal">
+            <div id="div-right">
+                <img src="js.png" alt="Logo JavaScript" id="js" width="60">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

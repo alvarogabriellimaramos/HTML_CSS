@@ -1,0 +1,20 @@
+body{
+    background-color: #bbb;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+}
+.block{
+    width: 280px;
+    height: 100px;
+    margin: 20px;
+    font-size: 24px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.block:hover{
+    border: solid 2px red ;
+    padding: 10px;
+}

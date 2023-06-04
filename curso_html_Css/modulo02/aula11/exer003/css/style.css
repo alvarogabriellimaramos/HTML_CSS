@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@font-face {
+    font-family: 'Font-Test';
+    src: url('../../font-externas/font/Roboto-Thin.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+h1{
+    text-align: center;
+    font-family:"Oswald",Arial, Helvetica, sans-serif ;
+}
+p{
+    font-family: "Font-Test";
+    text-align: center;
+    position: absolute;
+}
