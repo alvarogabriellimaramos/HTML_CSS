@@ -1,0 +1,36 @@
+.div-principal{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    background-color: orange;
+}
+.div-bola{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #592b46;
+    transform: translate(-50%,-50%);
+    animation: movimentação 4s infinite ease-in-out;
+    box-shadow: 0 2px 5px 1px black ;
+}
+.div-bola:hover{
+    transform: scale(2);
+}
+@keyframes movimentação {
+    0%{
+        transform: translate(-50%,-50%);
+    }
+    50%{
+        transform: translate(-50%,25%);
+    }
+    100%{
+        transform: translate(-50%,-50%);
+    }
+
+    
+}

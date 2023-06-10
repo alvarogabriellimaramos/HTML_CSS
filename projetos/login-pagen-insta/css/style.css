@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    width: 200px;
+    display: inline-flex;
+    margin: auto;
+}
+span{
+    padding: 0px;
+    text-align: center;
+}
+.face{
+    width: 25px;
+    position: absolute;
+    left:24%;
+    top: 76%;
+}
+.face:hover{
+    text-decoration: overline;
+}
+
+.div-principal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1px 0 black;
+    max-width: 20%;
+    min-width: 400px;
+    margin: 10px auto;
+    height: 380px;
+}
+.div-principal .txt-header{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    margin: 100px;
+    transform: translate(-120px);
+    text-align: center;
+}
+.div-principal input{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow:  0 0 1px 0;
+    border: none;
+    outline: none;
+}
+.div-principal input:focus{
+    box-shadow: 0 0 2px black;
+}
+.link-header{
+    position: absolute;
+    color: #262626;
+    text-decoration:none ;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-style: italic;
+}
+.link-btn{
+    text-decoration: none;
+}
+.btn{
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #197bfc;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.div-principal .btn:hover{
+    background-color: #1466d1;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.link-face{
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+.esqueceu{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+.div-registro{
+    max-width: 20%;
+    min-width: 400px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 1px black;
+    text-align: center;
+}
+.registro{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1F9EF7;
+}
+.div-footer{
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+footer > p {
+    text-align: center;
+    margin: 20px;
+}
+.div-footer .playstore{
+    position: absolute;
+    left: 20%;
+    width: 150px;
+    
+}
+.div-footer .microsoft{
+    position: absolute;
+    left: 51%;
+    width: 130px;
+}
+
