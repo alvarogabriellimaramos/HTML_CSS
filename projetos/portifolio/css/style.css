@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor1 : #ffe95d;
+}
+body{
+    background-color: var(--cor1);
+}
+img{
+    width: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 1.1em;
+    color: #f8c5ed;
+    list-style: none;
+}
+ul > li{
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul > li:hover{
+    color: #f1b779;
+    background-color: #68283e;
+    animation: lista 4s infinite;
+    font-size: 1.2em;
+}
+.div-menu{
+    background-color: red;
+    max-width: 20%;
+    min-width: 300px;
+    max-height: 80vh;
+    min-height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px ;
+}
+.btn-1{
+    position: relative;
+    width: 50px;
+    background-color: #faa036;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 0px black ;
+    transition: 0.8s;
+}
+.btn-1:hover{
+    background-color: #b9762a;
+}
+@keyframes lista {
+    0%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(0,10%);
+    }
+    100%{
+        transform: translate(0 , 0);
+    }
+}
