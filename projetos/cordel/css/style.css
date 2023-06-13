@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+    --font_1: 'Passion One' ,sans-serif;
+    --font_2 : 'Sriracha', sans-serif
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    min-width: 400px;
+    margin: auto;
+}
+header > h1{
+    font-family: var(--font_1);
+    font-size: 8vw;
+    font-weight: bold;
+    padding: 30px;
+}
+header > h1:hover{
+    text-decoration: underline;
+}
+header p {
+    padding-bottom: 90px;
+}
+p > a {
+    text-decoration: none;
+    font-size:1.2em ;
+    color: white;
+}
+p > a:hover{
+    text-decoration: underline;
+}
+.p{
+    margin-top: 80px;
+}
+main{
+    font-size: 4vw;
+}
+main > .normal{
+    max-width: 500px;
+    min-width: 300px;
+    line-height: 1.9em;
+    margin: 40px;
+    font-family: var(--font_2);
+}
+.section-img{
+    line-height: 1.9em;
+    background-image: url('../img/background001.jpg');
+    background-position: center center ;
+    max-width: 100%;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-family: var(--font_2);
+}
+.section-img > .div-txt{
+    background-color: #000E00;
+    margin: 30px;
+    padding: 30px;
+    color: white;
+    max-width: 50vw;
+}
+.section-img-02{
+    line-height: 1.9em;
+    max-width: 100%;
+    min-width: 400px;
+    background-image: url('../img/background002.jpg');
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-family: var(--font_2);
+    color: white;
+}
+.section-img-02 .div-txt-02{
+    background-color: #575c4e9a;
+    max-width:50vw ;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+    min-width: 400px;
+}
+footer > p {
+    color: white;
+    font-size: 1.2em;
+}
+.p-2 > a {
+    font-weight: bold;
+}
+@media screen and (min-width:200px) and (max-width:600px){
+    main > .normal{
+        text-align: center;
+    }
+    .section-img > .div-txt{
+        margin: auto;
+    }
+    .section-img-02 > .div-txt-02{
+        text-align: center;
+        margin: auto;
+    }
+}
