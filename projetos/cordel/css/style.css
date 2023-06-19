@@ -61,6 +61,7 @@ main > .normal{
     min-width: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 20px;
     font-family: var(--font_2);
 }
@@ -76,9 +77,10 @@ main > .normal{
     max-width: 100%;
     min-width: 400px;
     background-image: url('../img/background002.jpg');
-    background-position: center center ;
+    background-position: center center  ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 40px;
     font-family: var(--font_2);
     color: white;
