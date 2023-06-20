@@ -1,0 +1,170 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00e7ff;
+}
+header {
+    position: relative;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 600px;
+    padding: 5vh;
+}
+header > h1{
+    font-size: 2.5em;
+    color: white;
+    padding-bottom: 10px;
+}
+header > p {
+    display: inline-block;
+    width: 50%;
+    margin: 10px auto;
+    font-size: 1.3em;
+    color: white;
+}
+.div-img-header > img{
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+.div-img-header > img:hover{
+    width: 100px;
+}
+main{
+    max-width: 100%;
+    min-width: 400px;
+    padding-bottom: 10vh;
+    padding-top:10vh ;
+}
+main h2{
+    font-size: 2.5em;
+    font-variant: small-caps;
+    text-align: center;
+}
+main .pessoais{
+    background-color: white;
+    max-width: 50%;
+    min-width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    line-height: 2em;
+    text-align: center;
+    box-shadow: 1px 1px 3px black;
+}
+.pessoais > p {
+    margin-top: 15px;
+}
+main .objetivo{
+    margin: 50px;
+    background-color: white;
+    max-width: 50%;
+    min-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+.objetivo > strong{
+    line-height: 2em;
+}
+main .formação{
+    padding: 20px;
+    background-color: white;
+    max-width:50%;
+    min-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius:20px;
+    box-shadow: 1px 1px 3px black;
+}
+.formação > strong{
+    line-height: 1.5em;
+}
+main .habilidades{
+    background-color: white;
+    box-shadow: 1px 1px 3px black ;
+    border-radius: 20px;
+    max-width: 50%;
+    min-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+.habilidades > strong{
+    line-height: 2em;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    max-width: 100%;
+    min-width: 600px;
+}
+.insta{
+    width: 20px;
+    margin: 10px;
+}
+.div-insta{
+    position: relative;
+}
+a > span{
+    position: absolute;
+    transform: translate(0,55%);
+    color: white;
+}
+a > span:hover{
+    text-decoration: underline;
+}
+.face{
+    width: 20px;
+    margin: 10px;
+}
+@media screen and (min-width:200px) and (max-width:600px){
+    main{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    main > p{
+        width: 100px;
+    }
+    main .pessoais{
+        margin: 0 auto;
+        max-width: 100%;
+        min-width: 600px;
+        border-radius: 0;
+        box-shadow: 0 0 0;
+      
+    }
+    main .objetivo{
+        margin: 10px auto;
+        max-width: 100%;
+        min-width: 600px;
+        border-radius: 0;
+        box-shadow: 0 0 0;
+    }
+    main .formação{
+        margin: 10px auto;
+        max-width: 100%;
+        min-width: 600px;
+        border-radius: 0;
+        box-shadow: 0 0 0;
+    }
+    main .habilidades{
+        margin: 10px auto;
+        max-width: 100%;
+        min-width: 600px;
+        border-radius: 0;
+        box-shadow: 0 0 0;
+    }
+}

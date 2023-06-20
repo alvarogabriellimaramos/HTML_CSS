@@ -53,6 +53,10 @@ main > .normal{
     margin: 40px;
     font-family: var(--font_2);
 }
+section{
+    padding-bottom:10vh;
+    padding-top:10vh;
+}
 .section-img{
     line-height: 1.9em;
     background-image: url('../img/background001.jpg');
