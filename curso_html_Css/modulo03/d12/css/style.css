@@ -30,7 +30,8 @@ header > p {
 }
 main{
     font-family: var(--font-2);
-    max-width: 400px;
+    max-width: 100%;
+    min-width: 400px;
     font-size: 3vw;
     padding: 10px;
     font-variant:titling-caps;
@@ -39,8 +40,11 @@ main{
 section{
     padding-bottom: 10vh;
     padding-top: 10vh;
-    text-align: center;
     padding: 10px;
+}
+section > p {
+    width: 400px;
+    padding-bottom: 20px;
 }
 a{
     text-decoration: none;
@@ -51,14 +55,32 @@ a:hover{
     text-decoration: underline;
 }
 section.normal{
-    background-color: black;
-    color: white;
+    color:black;
 }
-section.imagem{
-    background-color: gray;
-}
+
 .imagem > p{
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.397);
+    margin: 50px;
+    height: auto;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+section#img-01{
+    color: white;
+    background-image: url('../img/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    background-attachment: fixed;
+}
+section#img-02{
+    color: black;
+    padding: 10px;
+    background-image: url('../img/background002.jpg');
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 footer{
     background-color: black;
@@ -72,5 +94,11 @@ footer{
     main{
         text-align: center;
         margin: auto;
+    }
+    section.normal{
+        max-width: 100%;
+        min-width: 400px;
+        margin: auto;
+        text-align: center;
     }
 }
