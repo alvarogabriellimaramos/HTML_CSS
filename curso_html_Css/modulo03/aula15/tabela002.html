@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border-collapse: collapse;
+      
+        }
+        thead{
+            
+            position: sticky;
+            top: -1px;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            width: 80px;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: darkgray;
+
+        }
+        th{
+            border: 1px solid black;
+            background-color: rgb(214, 16, 16);
+            color: white;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Uso de tabelas grandes </h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES 
+        TABLE
+            THEAD
+                TR,TD,TH   
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+    -->
+    <main>
+        <table>
+            <caption> <p>Segundo o <a href="https://www.suno.com.br/artigos/fmi/"><strong> Fundo Monetário Internacional ( FMI )</strong></a>,o <strong>ranking das maiores economias do mundo em 2023</strong> são: </p> </caption>
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>País</th>
+                    <th>PIB<br>Produto Interno Bruto (US$ TRI)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1º </td>
+                    <td>Estados Unidos</td>
+                    <td>18,6</td>
+                </tr>
+                <tr>
+                    <td>2º </td>
+                    <td>China</td>
+                    <td>11,2</td>
+                </tr>
+                <tr>
+                    <td>3º</td>
+                    <td>Japão</td>
+                    <td>4,9</td>
+                </tr>
+                <tr>
+                    <td>4º </td>
+                    <td>Alemanha</td>
+                    <td>3,4</td>
+                </tr>
+                <tr>
+                    <td>5º </td>
+                    <td>Reino Unido</td>
+                    <td>2,6</td>
+                </tr>
+                <tr>
+                    <td>6º </td>
+                    <td>França</td>
+                    <td>2,5</td>
+                </tr>
+                <tr>
+                    <td>7º </td>
+                    <td>Índia</td>
+                    <td>2,2</td>
+                </tr>
+                <tr>
+                    <td>8º </td>
+                    <td>Itália</td>
+                    <td>1,8</td>
+                </tr>
+                <tr>
+                    <td>9º </td>
+                    <td>Brasil</td>
+                    <td>1,8</td>
+                </tr>
+                <tr>
+                    <td>10º </td>
+                    <td>Canadá</td>
+                    <td>1,5</td>
+                </tr>
+                <tr>
+                    <td>11º </td>
+                    <td>Coreia do Sul </td>
+                    <td>1,3</td>
+                </tr>
+                <tr>
+                    <td>12º </td>
+                    <td>Austrália</td>
+                    <td>1,2</td>
+                </tr>
+                <tr>
+                    <td>13º </td>
+                    <td>Russia</td>
+                    <td>1,1</td>
+                </tr>
+                <tr>
+                    <td>14º </td>
+                    <td>México</td>
+                    <td>1,0</td>
+                </tr>
+                <tr>
+                    <td>15º </td>
+                    <td>Pasquitão</td>
+                    <td>900b</td>
+                </tr>
+                <tr>
+                    <td>16º </td>
+                    <td>Africa Do Sul</td>
+                    <td>850b</td>
+                </tr>
+                <tr>
+                    <td>17º </td>
+                    <td>Portugal</td>
+                    <td>500b</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

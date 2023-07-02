@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    margin:100px auto;
+}
+caption{
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: darkgray;
+}
+th{
+    border: 1px solid black;
+    background-color: #EAECF0;
+   padding: 10px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid black;
+    
+}
